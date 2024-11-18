@@ -1,0 +1,98 @@
+.containers {
+    display: table;    
+    width: 100%;
+    height: 105vh;
+    margin: 0;
+    border-radius: 25px;
+  }
+  
+  .left-side {        
+    background-color: aliceblue;
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 110vh;    
+  }
+  
+  .right-side {        
+    background: linear-gradient(to bottom, #b080c3, #7b95c6); 
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 110vh;  
+  }
+  
+  .image {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .h2-text {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 10px;
+    color: #666;
+  }
+  
+  .header1 {
+    text-align: right;
+    margin-right: 15px;
+  }
+  
+  .signUpbtn {
+    background-color: #0074d9;    
+    color: white;
+    border: none;
+    border-radius: 45px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .formtext {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color:rgb(33, 9, 252);
+    background-color:aliceblue;
+  }
+  
+  .form1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form1 input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .form1 label{
+    color: #333;
+    text-align: left;
+  }
+  
+  .form1 button {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .form1 button:hover {
+    background-color: #0056b3;
+  }

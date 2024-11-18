@@ -1,0 +1,114 @@
+.btn {
+    background-color: #ff4136;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #a28089;
+    color: whitesmoke;  
+    font-size: 35px;
+    font-weight: italic;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .uploaded-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 20px;
+    image-rendering: -webkit-optimize-contrast; 
+    image-rendering: crisp-edges;
+    object-fit: cover; 
+  }
+
+  .uploaded-image img{
+    margin-right: 10px;
+    width: 500px; 
+    height: 600px;    
+  }
+
+  .uploaded-image h2{
+    background: linear-gradient(to right,#c6c6e8, #f193c5);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .text {
+    background-color: #9df9ef;
+    color: #2ecc40;
+    font-size: 20px;
+    font-weight: italic;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    height: auto;
+  }
+  
+  .file-input {
+  margin-top: 2px;
+  margin-left: 5px;
+  cursor: pointer;
+  padding: 20px 40px;
+  font-size: 25px;
+  border: none;  
+  color: rgb(250, 5, 5);
+  border-radius: 5px;
+  text-align: left;
+  }
+  
+  .capture-button {
+    font-size: 25px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .capture-button:hover {
+    background-color: #0056b3;
+  } 
+    
+  .submit-button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 5px;
+  }
+
+  .sub{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+
+  .tryon-image-container {
+    display: flex;
+    justify-content: center;
+  }
+  

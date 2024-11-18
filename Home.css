@@ -1,0 +1,62 @@
+.text {
+  background: linear-gradient(to bottom, #ade7ee, #0a91c3);
+  color: #2ecc40;
+  font-size: 20px;
+  font-weight: italic;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border-radius: 20px;
+  height: 100vh;
+}
+
+.text-text{
+  background: linear-gradient(to bottom,   #8e44ad, #e91e63);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: 0; 
+  font-size: 40px;  
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.long-button {
+  background-color: #3498db; 
+  font-weight: italic;
+  text-align: center;
+  margin: 2px;
+  height: 450px;
+  width: 250px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.long-button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.long-button.one {
+  background-color: #3498db; 
+  font-size: 50px;
+}
+
+.long-button.two {
+  background-color: #e74c3c; 
+  font-size: 50px;
+}
+
+.long-button.three {
+  background-color: #27ae60; 
+  font-size: 50px;  
+}
